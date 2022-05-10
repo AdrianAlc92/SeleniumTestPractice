@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-07T22:35:49 CDT" name="Default suite" finished-at="2022-05-07T22:35:59 CDT" duration-ms="10418">
+    <groups>
+    </groups>
+    <test started-at="2022-05-07T22:35:49 CDT" name="Default test" finished-at="2022-05-07T22:35:59 CDT" duration-ms="10418">
+      <class name="testCase.TC02_Directory_Orange">
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:testCase.TC02_Directory_Orange@43dac38f]" started-at="2022-05-07T22:35:49 CDT" name="BeforeTest" finished-at="2022-05-07T22:35:52 CDT" duration-ms="2836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method signature="Login()[pri:0, instance:testCase.TC02_Directory_Orange@43dac38f]" started-at="2022-05-07T22:35:52 CDT" name="Login" finished-at="2022-05-07T22:35:53 CDT" duration-ms="1631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="DirctoryPage()[pri:1, instance:testCase.TC02_Directory_Orange@43dac38f]" started-at="2022-05-07T22:35:53 CDT" name="DirctoryPage" finished-at="2022-05-07T22:35:59 CDT" duration-ms="5065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DirctoryPage -->
+        <test-method signature="Validate()[pri:2, instance:testCase.TC02_Directory_Orange@43dac38f]" started-at="2022-05-07T22:35:59 CDT" name="Validate" finished-at="2022-05-07T22:35:59 CDT" duration-ms="402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCase.TC02_Directory_Orange@43dac38f]" started-at="2022-05-07T22:35:59 CDT" name="close" finished-at="2022-05-07T22:35:59 CDT" duration-ms="465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCase.TC02_Directory_Orange -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionAutomatedQA" parallel="tests"
+	thread-count="1">
+
+	<test name="TC01 Valitadion Login">
+		<classes>
+			<class name="testCase.TC01_Login_Orange" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="TC02 Validation Directory">
+		<classes>
+			<class name="testCase.TC02_Directory_Orange" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

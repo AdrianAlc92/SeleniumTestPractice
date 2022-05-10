@@ -5,5 +5,6 @@ public class HomePageObject {
 	 public static final String PASSWORD_TXBOX = "txtPassword";
 	 public static final String LOGIN_BUTTON = "btnLogin";
 	 public static final String NEW = "";
+	 public static final String NoW = "";
 	 
 }

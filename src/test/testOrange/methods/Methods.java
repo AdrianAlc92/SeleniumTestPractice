@@ -139,8 +139,8 @@ public class Methods {
 		}
 	}
 
-	public void initializeReport(String nameTest, String description) {
-		htmlReporter = new ExtentHtmlReporter("./reports/OrangeReport.html");
+	public void initializeReport(String nameTest, String description,String docSave) {
+		htmlReporter = new ExtentHtmlReporter("./reports/"+docSave+".html");
 		htmlReporter.config().setDocumentTitle("Automation Report");
 		htmlReporter.config().setReportName("Created by Adrian and Angel");
 		htmlReporter.config().setTestViewChartLocation(ChartLocation.BOTTOM);

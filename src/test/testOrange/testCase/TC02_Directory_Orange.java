@@ -17,7 +17,7 @@ public class TC02_Directory_Orange {
 	@BeforeTest
 	private void BeforeTest() {
 		System.out.println("Inicio de ejecucion para la secion de directiorios");
-		m.initializeReport("Test OrangeHRM", "Test Case 02 Directory");
+		m.initializeReport("Test OrangeHRM", "Test Case 02 Directory","OrangeDirectory");
 		m.launchBrowser(ProjectConfigObject.BROWSER_CHROME, ProjectConfigObject.URL, ProjectConfigObject.RUN_HEADLES);
 
 	}

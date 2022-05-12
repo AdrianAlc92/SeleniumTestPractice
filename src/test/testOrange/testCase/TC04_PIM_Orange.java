@@ -19,7 +19,7 @@ public class TC04_PIM_Orange {
 	@BeforeTest
 	private void BeforeTest() {
 		System.out.println("Inicio de ejecucion para la secion de PIM");
-		m.initializeReport("Test OrangeHRM", "Test Case 04 PIM");
+		m.initializeReport("Test OrangeHRM", "Test Case 04 PIM", "OrangePIM");
 		m.launchBrowser(ProjectConfigObject.BROWSER_CHROME, ProjectConfigObject.URL, ProjectConfigObject.RUN_HEADLES);
 
 	}

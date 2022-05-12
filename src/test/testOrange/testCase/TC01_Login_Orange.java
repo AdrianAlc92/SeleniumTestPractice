@@ -15,7 +15,7 @@ public class TC01_Login_Orange {
 	@BeforeTest
 	private void BeforeTest() {
 		System.out.println("Inicio de ejecucion para Login");
-		m.initializeReport("Test OrangeHRM", "Test Case 01 Login");
+		m.initializeReport("Test OrangeHRM", "Test Case 01 Login","OrangeLogin");
 		m.launchBrowser(ProjectConfigObject.BROWSER_CHROME, ProjectConfigObject.URL, ProjectConfigObject.RUN_HEADLES);
 
 	}

@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCase.TC02_Directory_Orange22222222">
+      <class name="testCase.TC04_PIM_Orange">
         <methods>
+          <include name="PimFilterPage"/>
           <include name="Validate"/>
-          <include name="close"/>
           <include name="BeforeTest"/>
+          <include name="close"/>
         </methods>
-      </class> <!-- testCase.TC02_Directory_Orange22222222 -->
+      </class> <!-- testCase.TC04_PIM_Orange -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

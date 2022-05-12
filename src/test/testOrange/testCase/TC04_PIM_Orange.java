@@ -18,15 +18,14 @@ public class TC04_PIM_Orange {
 
 	@BeforeTest
 	private void BeforeTest() {
-		System.out.println("Inicio de ejecucion para la secion de directiorios");
-		m.initializeReport("Test OrangeHRM", "Test Case 02 Directory");
+		System.out.println("Inicio de ejecucion para la secion de PIM");
+		m.initializeReport("Test OrangeHRM", "Test Case 04 PIM");
 		m.launchBrowser(ProjectConfigObject.BROWSER_CHROME, ProjectConfigObject.URL, ProjectConfigObject.RUN_HEADLES);
 
 	}
 
 	@Test(priority = 0)
 	public void Login() throws Exception {
-
 		m.input("id", HomePageObject.USER_TXBOX, ProjectConfigObject.USERNAME);
 		m.input("id", HomePageObject.PASSWORD_TXBOX, ProjectConfigObject.PASSWORD);
 		m.click("id", HomePageObject.LOGIN_BUTTON);
@@ -37,7 +36,6 @@ public class TC04_PIM_Orange {
 	@SuppressWarnings("unused")
 	@Test(priority = 1)
 	public void PimFilterPage() throws IOException {
-
 		m.takeScreenShotAndAddToTheReport("User login", statusPage);
 		statusPage = true;
 		m.click("id", PimPageObject.PIM_TAB);

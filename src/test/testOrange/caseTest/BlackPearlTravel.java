@@ -5,8 +5,6 @@ import org.testng.annotations.Test;
 
 import ObjectTravelPage.ProjectConfigObjTravel;
 import ObjectTravelPage.TravelPage;
-import Objects.HomepageX;
-import Objects.ProjectConfigObj;
 import methods.Methods;
 
 public class BlackPearlTravel {

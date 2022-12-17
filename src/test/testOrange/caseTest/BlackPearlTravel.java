@@ -18,7 +18,7 @@ public class BlackPearlTravel {
 	private void BeforeTest() {
 		System.out.println("Inicio de ejecucion para Viajes del perla negra");
 		m.initializeReport("Perla Negra", "Test Case 01", "Viajes");
-		m.launchBrowser(ProjectConfigObj.BROWSER_CHROME, ProjectConfigObjTravel.URL, ProjectConfigObj.RUN_HEADLES);
+		m.launchBrowser(ProjectConfigObjTravel.BROWSER_CHROME, ProjectConfigObjTravel.URL, ProjectConfigObjTravel.RUN_HEADLES);
 
 	}
 

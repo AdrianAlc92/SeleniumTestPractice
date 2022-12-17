@@ -1,7 +1,7 @@
 package pageObjects;
 
 public class DirectoryPageObject {
-	public static final String DIRECTORY_TAB = "menu_directory_viewDirectory";
+	public static final String DIRECTORY_TAB = "path-2";
 	public static final String NAME_TXBOX = "searchDirectory_emp_name_empName";
 	public static final String JOB_DRDWN = "searchDirectory_job_title";
 	public static final String LOCATION_DRDWN = "//option[contains(text(),'United States')]";

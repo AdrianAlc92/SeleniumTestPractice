@@ -25,7 +25,7 @@ public class TC01_Login_Orange {
 		
 		m.input("id", HomePageObject.USER_TXBOX, ProjectConfigObject.USERNAME);
 		m.input("id", HomePageObject.PASSWORD_TXBOX, ProjectConfigObject.PASSWORD);
-		m.click("id", HomePageObject.LOGIN_BUTTON);
+		m.click("xpath", HomePageObject.LOGIN_BUTTON);
 	    m.takeScreenShotAndAddToTheReport("User Logged in successfully",statusTest);
 		m.close();
 

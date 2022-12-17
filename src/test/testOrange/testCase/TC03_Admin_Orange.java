@@ -20,7 +20,7 @@ public class TC03_Admin_Orange {
 	@BeforeTest
 	private void BeforeTest() {
 		System.out.println("Inicio de ejecucion para modificacion Admin");
-		m.initializeReport("Test OrangeHRM", "Test Case 03 Admin Orange");
+		m.initializeReport("Test OrangeHRM", "Test Case 03 Admin Orange","OrangeAdmin");
 		m.launchBrowser(ProjectConfigObject.BROWSER_CHROME, ProjectConfigObject.URL, ProjectConfigObject.RUN_HEADLES);
 
 	}

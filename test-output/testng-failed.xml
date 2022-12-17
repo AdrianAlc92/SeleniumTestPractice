@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCase.TC04_PIM_Orange">
+      <class name="caseTest.BlackPearlTravel">
         <methods>
-          <include name="PimFilterPage"/>
-          <include name="Validate"/>
           <include name="BeforeTest"/>
-          <include name="close"/>
+          <include name="SearchPortRoyalResult"/>
         </methods>
-      </class> <!-- testCase.TC04_PIM_Orange -->
+      </class> <!-- caseTest.BlackPearlTravel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

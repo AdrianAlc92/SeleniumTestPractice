@@ -25,9 +25,9 @@ public class TC02_Directory_Orange {
 	@Test(priority = 0)
 	public void Login() throws Exception {
 
-		m.input("id", HomePageObject.USER_TXBOX, ProjectConfigObject.USERNAME);
-		m.input("id", HomePageObject.PASSWORD_TXBOX, ProjectConfigObject.PASSWORD);
-		m.click("id", HomePageObject.LOGIN_BUTTON);
+		m.input("name", HomePageObject.USER_TXBOX, ProjectConfigObject.USERNAME);
+		m.input("name", HomePageObject.PASSWORD_TXBOX, ProjectConfigObject.PASSWORD);
+		m.click("xpath", HomePageObject.LOGIN_BUTTON);
 		statusPage = false;
 
 	}

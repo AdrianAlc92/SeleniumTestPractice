@@ -1,153 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-10T03:51:22 CDT" name="Default suite" finished-at="2022-05-10T03:51:49 CDT" duration-ms="27297">
+  <suite started-at="2022-12-16T18:21:36 CST" name="Default suite" finished-at="2022-12-16T18:22:18 CST" duration-ms="42266">
     <groups>
     </groups>
-    <test started-at="2022-05-10T03:51:22 CDT" name="Default test" finished-at="2022-05-10T03:51:49 CDT" duration-ms="27297">
-      <class name="testCase.TC04_PIM_Orange">
-        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:testCase.TC04_PIM_Orange@43dac38f]" started-at="2022-05-10T03:51:22 CDT" name="BeforeTest" finished-at="2022-05-10T03:51:25 CDT" duration-ms="2981" status="PASS">
+    <test started-at="2022-12-16T18:21:36 CST" name="Default test" finished-at="2022-12-16T18:22:18 CST" duration-ms="42266">
+      <class name="caseTest.BlackPearlTravel">
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:caseTest.BlackPearlTravel@54bff557]" started-at="2022-12-16T18:21:36 CST" name="BeforeTest" finished-at="2022-12-16T18:21:38 CST" duration-ms="1814" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method signature="Login()[pri:0, instance:testCase.TC04_PIM_Orange@43dac38f]" started-at="2022-05-10T03:51:25 CDT" name="Login" finished-at="2022-05-10T03:51:27 CDT" duration-ms="2079" status="PASS">
+        <test-method signature="SearchBarXbox()[pri:0, instance:caseTest.BlackPearlTravel@54bff557]" started-at="2022-12-16T18:21:38 CST" name="SearchBarXbox" finished-at="2022-12-16T18:21:38 CST" duration-ms="45" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method signature="PimFilterPage()[pri:1, instance:testCase.TC04_PIM_Orange@43dac38f]" started-at="2022-05-10T03:51:27 CDT" name="PimFilterPage" finished-at="2022-05-10T03:51:29 CDT" duration-ms="1354" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Cannot locate option with index: 9
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'ADRIANPCGAMER', ip: '192.168.0.137', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: driver.version: unknown]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with index: 9
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'ADRIANPCGAMER', ip: '192.168.0.137', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:301)
-at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:176)
-at methods.Methods.selectOptDropdown(Methods.java:88)
-at testCase.TC04_PIM_Orange.PimFilterPage(TC04_PIM_Orange.java:46)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        </test-method> <!-- SearchBarXbox -->
+        <test-method signature="SearchTextMessageEmpty()[pri:1, instance:caseTest.BlackPearlTravel@54bff557]" started-at="2022-12-16T18:21:38 CST" name="SearchTextMessageEmpty" finished-at="2022-12-16T18:21:38 CST" duration-ms="49" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PimFilterPage -->
-        <test-method signature="Validate()[pri:2, instance:testCase.TC04_PIM_Orange@43dac38f]" started-at="2022-05-10T03:51:29 CDT" name="Validate" finished-at="2022-05-10T03:51:49 CDT" duration-ms="20387" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='resultTable']//b[contains(text(),'Nathan Elliot')]"}
-  (Session info: chrome=101.0.4951.54)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'ADRIANPCGAMER', ip: '192.168.0.137', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1cc973aa0012cdc55ed412cb2a252652, findElement {using=xpath, value=//*[@id='resultTable']//b[contains(text(),'Nathan Elliot')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\adria\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49432}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49432/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1cc973aa0012cdc55ed412cb2a252652]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='resultTable']//b[contains(text(),'Nathan Elliot')]"}
-  (Session info: chrome=101.0.4951.54)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'ADRIANPCGAMER', ip: '192.168.0.137', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1cc973aa0012cdc55ed412cb2a252652, findElement {using=xpath, value=//*[@id='resultTable']//b[contains(text(),'Nathan Elliot')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\adria\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49432}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49432/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1cc973aa0012cdc55ed412cb2a252652
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-at methods.Methods.validation(Methods.java:95)
-at testCase.TC04_PIM_Orange.Validate(TC04_PIM_Orange.java:67)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        </test-method> <!-- SearchTextMessageEmpty -->
+        <test-method signature="SearchIslandResults()[pri:2, instance:caseTest.BlackPearlTravel@54bff557]" started-at="2022-12-16T18:21:38 CST" name="SearchIslandResults" finished-at="2022-12-16T18:21:58 CST" duration-ms="20121" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Validate -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testCase.TC04_PIM_Orange@43dac38f]" started-at="2022-05-10T03:51:49 CDT" name="close" finished-at="2022-05-10T03:51:49 CDT" duration-ms="474" status="PASS">
+        </test-method> <!-- SearchIslandResults -->
+        <test-method signature="SearchCastlesResult()[pri:3, instance:caseTest.BlackPearlTravel@54bff557]" started-at="2022-12-16T18:21:58 CST" name="SearchCastlesResult" finished-at="2022-12-16T18:21:58 CST" duration-ms="82" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- testCase.TC04_PIM_Orange -->
+        </test-method> <!-- SearchCastlesResult -->
+        <test-method signature="SearchPortRoyalResult()[pri:4, instance:caseTest.BlackPearlTravel@54bff557]" started-at="2022-12-16T18:21:58 CST" name="SearchPortRoyalResult" finished-at="2022-12-16T18:22:18 CST" duration-ms="20134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchPortRoyalResult -->
+      </class> <!-- caseTest.BlackPearlTravel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
